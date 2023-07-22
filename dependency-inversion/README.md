@@ -6,6 +6,4 @@ High level module should not depend on low level module but should depend on int
 Class should depend on interfaces instead of concrete class
 #
 * ## High level module
-  The class which use an instance of another class
-* ## Low Level module
-  The class which used in another class 
+  high-level module is a module (class) that uses other modules (classes) to perform a task. A low-level module contains a detailed implementation of some specific task that can be used by other modules
