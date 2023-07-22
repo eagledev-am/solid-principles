@@ -6,7 +6,7 @@ public class Main {
         FlyingAnimal eagle = new Eagle();
 
         isFlyingAnimal(eagle);
-        // isFlyingAnimal(lion) error
+        // isFlyingAnimal(lion) error as Lion does not extend FLyingAnimal
     }
 
     public static void isFlyingAnimal(FlyingAnimal animal){
